@@ -1,6 +1,6 @@
 # شارعنا يستاهل — Campaign Studio
 
-Private, buildless planning workspace for an Egyptian anti-littering campaign.
+Public, buildless planning workspace for an Egyptian anti-littering campaign.
 
 ## Run
 No build or package installation is needed. With Python 3 installed, run from the repository root:
@@ -49,10 +49,13 @@ Official reference pages reviewed 26 October 2026:
 ## Validation
 Desktop browser checks covered approach/model changes, audience/tone/variant changes, shortlisting, copying, keyboard tabs, budget changes/invalid inputs/zero budget, readiness checks, roadmap persistence, risk filtering, and disclosures. Phone (390px frame) and tablet (768px frame) layouts were reviewed; phone overview, messaging, and funding had no horizontal page overflow. Mobile drawer hides background controls and restores section access. Calculator invariants passed 140 budget/weight/cost scenarios. HTML IDs, local assets, fragment targets, and JS syntax were checked. Validation-only checklist selections and message shortlist entries were removed.
 
-`docs/preview.jpg` records the validated overview. Hosting remains owner-private unless the owner explicitly approves a future audience change.
+`docs/preview.jpg` records the validated overview. The GitHub Pages deployment is public. Planning choices stay in the visitor's browser and are not uploaded.
 
 ## Arabic localization validation (26 October 2026)
 All 459 initial catalog entries plus numeric labels cover static copy and all audience, roadmap, readiness, and risk data. JS syntax passed. Browser QA verified language and direction switching, preserved audience/tone/shortlist, approach/model, budget, readiness and roadmap selections across reload, localized errors, and copying plans and creative briefs in both languages. Risk filters and open details survive locale changes. Arrow-key tab movement follows LTR/RTL direction. Responsive frames at 390px and 768px were visually reviewed; Arabic overview, funding and messages had no horizontal page overflow. The mobile drawer opens on the right for Arabic and left for English. No audience or access changes were requested or made.
 
 ## Source snapshot
 Exported from the validated Arabic/English site source commit `7f3ebe33ffd30edfaa7b41f6ae1e3478a4e6c4e1`. Hosting credentials, platform project configuration and browser planning data are excluded from this portable source snapshot.
+
+## GitHub Pages deployment
+Public publication was approved on 22 November 2026. The publishing source is the root of the `gh-pages` branch. The `dist/` directory on `main` contains the maintained source; copy its contents to the publishing branch when releasing changes. `.nojekyll` disables Jekyll processing. No build step or package installation is needed.
