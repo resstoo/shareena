@@ -1,13 +1,13 @@
 'use strict';
 // Exact source strings keep the English copy and Arabic translation together.
 const AR = Object.fromEntries(`
-A private strategy workspace for an Egyptian campaign that turns respect for our streets into everyday action.|||مساحة تخطيط خاصة لحملة مصرية تحوّل احترام الشارع إلى تصرف يومي.
+A strategy workspace for an Egyptian campaign that turns respect for our streets into everyday action.|||مساحة تخطيط لحملة مصرية تحوّل احترام الشارع إلى تصرف يومي.
 شارعنا يستاهل · Campaign Studio|||شارعنا يستاهل · مساحة تخطيط الحملة
 Skip to content|||انتقل للمحتوى
 Close navigation|||إغلاق القائمة
 Shareena, overview|||شارعنا يستاهل، نظرة عامة
 CAMPAIGN STUDIO|||مساحة تخطيط الحملة
-YOUR PRIVATE WORKSPACE|||مساحة التخطيط الخاصة بك
+YOUR PLANNING WORKSPACE|||مساحة التخطيط
 Main navigation|||القائمة الرئيسية
 Overview|||نظرة عامة
 Campaign approach|||توجّه الحملة
@@ -23,7 +23,7 @@ Independent organization|||مؤسسة مستقلة
 A direction to build toward|||اتجاه نبني عليه خطوة بخطوة
 Open navigation|||فتح القائمة
 Strategy workspace|||تخطيط الحملة
-Private|||خاص
+Planning|||تخطيط
 My working plan|||خطتي الحالية
 A CLEANER STREET. A DIFFERENT STANDARD.|||شارع أنضف. وسلوك يليق بينا.
 A small act.|||تصرف صغير.
